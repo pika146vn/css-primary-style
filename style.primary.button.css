@@ -1,0 +1,463 @@
+﻿/* ========== BUTTON ========== */
+.btn-primary {
+    height: 32px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    /* font-style: italic;*/
+    /* font-weight: 500;*/
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: var(--color-primary-500);
+    color: var(--color-text-inverse);
+    border-radius: 5px;
+    border-style: none;
+    border-width: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+    .btn-primary img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(103%) contrast(102%);
+    }
+
+
+    .btn-primary.small {
+        width: 20px;
+        height: 20px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        padding: 0px;
+        background: var(--color-primary-500);
+        color: var(--color-text-inverse);
+        border-radius: 5px;
+        border-style: none;
+        border-width: 0px;
+        display: flex;
+        align-items: center;
+        --dxbl-btn-line-height: 0;
+    }
+
+
+    .btn-primary.circle {
+        height: 32px;
+        border-radius: 16px;
+    }
+
+
+    .btn-primary:hover {
+        background-color: var(--color-primary-600); /* Hover đậm hơn */
+    }
+
+    .btn-primary:active {
+        background-color: var(--color-primary-700); /* Active đậm hơn nữa */
+    }
+
+.button-primary:disabled {
+    background-color: #f0b89e; /* Disabled nhạt hơn */
+    color: #ffffffaa;
+    cursor: not-allowed;
+}
+
+
+.btn-primary:disabled {
+    background-color: #6c757d; /* Màu nền khi nút bị vô hiệu hóa */
+    color: var(--color-text-inverse); /* Màu chữ khi nút bị vô hiệu hóa */
+    cursor: not-allowed; /* Thay đổi con trỏ khi nút bị vô hiệu hóa */
+}
+
+
+.btn-secondary {
+    height: 32px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    /*font-style: italic;*/
+    /*font-weight: 500;*/
+    font-weight: normal;
+    color: var(--color-text-inverse);
+    background-color: var(--color-secondary-dark-500);
+    border-radius: 5px;
+    border-style: none;
+    border-width: 0px;
+    border-color: none;
+}
+
+
+    .btn-secondary img {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(5%) saturate(6161%) hue-rotate(8deg) brightness(112%) contrast(119%);
+    }
+
+
+/* ========== BUTTON V1 ========== */
+
+.button-basic {
+    height: 32px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    /*  font-style: italic;*/
+    /*color: #ed7d3d;
+    background-color: #f4f5f8;*/
+    color: var(--color-text-inverse);
+    background-color: var(--color-secondary-dark-500);
+    border-radius: 4px;
+    border-style: none;
+    border-width: 0px;
+    font-weight: 500;
+}
+
+
+
+
+/* ========== BUTTON V1 ========== */
+.button-icon {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    background-color: rgb(106, 138, 196);
+    border-radius: 4px;
+    border-style: none;
+}
+
+    .button-icon:hover {
+        background-color: rgba(106, 138, 196, 0.6) !important;
+    }
+
+
+.button-primary {
+    height: 32px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: italic;
+    background: var(--color-primary-500);
+    color: var(--color-text-inverse);
+    border-radius: 4px;
+    border-style: none;
+}
+
+
+    .button-primary:hover {
+        background-color: rgba(90, 129, 250,0.6) !important;
+    }
+
+
+
+.button-bright.nav-link {
+    height: 32px;
+    padding: 0px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(162, 162, 162);
+    background-color: white;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(162, 162, 162);
+    border-width: 1px;
+}
+
+    .button-bright.nav-link.active {
+        height: 32px;
+        padding: 0px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(40, 87, 154);
+        background-color: white;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: rgb(40, 87, 154);
+        border-width: 1px;
+    }
+
+.button-bright {
+    height: 32px;
+    padding: 0px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: rgb(40, 87, 154);
+    background-color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(40, 87, 154);
+    border-width: 1px;
+}
+
+
+.button-collapse {
+    border: none;
+    background-color: white;
+}
+
+    .button-collapse:before {
+        content: "\f282"; /* mã của icon trong bootstrap icons */
+        font-family: "bootstrap-icons"; /* tên font của icon */
+        margin-right: 8px; /* khoảng cách giữa icon và content */
+    }
+
+    .button-collapse.collapsed:before {
+        content: "\f285"; /* mã của icon trong bootstrap icons */
+        font-family: "bootstrap-icons"; /* tên font của icon */
+        margin-right: 8px; /* khoảng cách giữa icon và content */
+    }
+
+
+.btn-collapse {
+    border: none;
+    background-color: transparent;
+}
+
+
+    .btn-collapse:before {
+        content: "\f282"; /* mã của icon trong bootstrap icons */
+        font-family: "bootstrap-icons"; /* tên font của icon */
+        margin-right: 8px; /* khoảng cách giữa icon và content */
+    }
+
+    .btn-collapse.collapsed:before {
+        content: "\f285"; /* mã của icon trong bootstrap icons */
+        font-family: "bootstrap-icons"; /* tên font của icon */
+        margin-right: 8px; /* khoảng cách giữa icon và content */
+    }
+
+.btn-primary-link {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+
+    .btn-primary-link img {
+        filter: brightness(0) saturate(100%) invert(40%) sepia(90%) saturate(1500%) hue-rotate(210deg) brightness(103%) contrast(96%);
+    }
+
+    .btn-primary-link:disabled {
+        /*background-color: #cccccc;*/ /* Màu nền khi bị disable */
+        /*color: #666666;*/ /* Màu chữ khi bị disable */
+        /*cursor: not-allowed;*/ /* Thay đổi con trỏ chuột */
+        /*opacity: 0.6;*/ /* Giảm độ trong suốt */
+        color: rgb(237, 236, 237);
+        pointer-events: none; /* Vô hiệu hóa các sự kiện chuột */
+    }
+
+
+    .btn-primary-link img:disabled {
+        filter: brightness(0) saturate(100%) invert(89%) sepia(93%) saturate(0%) hue-rotate(95deg) brightness(83%) contrast(133%);
+    }
+
+.btn-link {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: var(--color-text-primary);
+}
+
+
+    .btn-link img {
+        filter: brightness(0) saturate(100%) invert(28%) sepia(12%) saturate(1802%) hue-rotate(183deg) brightness(104%) contrast(88%);
+    }
+
+    .btn-link:disabled {
+        color: rgb(218, 218, 218);
+        pointer-events: none;
+    }
+
+        .btn-link:disabled img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6869%) hue-rotate(183deg) brightness(110%) contrast(71%);
+        }
+
+
+.btn-link-success {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: var(--color-text-primary);
+}
+
+
+    .btn-link-success img {
+        filter: brightness(0) saturate(100%) invert(28%) sepia(12%) saturate(1802%) hue-rotate(183deg) brightness(104%) contrast(88%);
+    }
+
+    .btn-link-success:disabled {
+        color: rgb(218, 218, 218);
+        pointer-events: none;
+    }
+
+        .btn-link-success:disabled img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6869%) hue-rotate(183deg) brightness(110%) contrast(71%);
+        }
+
+.btn-link-danger {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: rgb(229, 76, 95);
+}
+
+    .btn-link-danger img {
+        filter: brightness(0) saturate(100%) invert(46%) sepia(17%) saturate(7089%) hue-rotate(324deg) brightness(93%) contrast(94%);
+    }
+
+    .btn-link-danger:disabled {
+        color: rgb(218, 218, 218);
+        pointer-events: none;
+    }
+
+        .btn-link-danger:disabled img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(6869%) hue-rotate(183deg) brightness(110%) contrast(71%);
+        }
+
+.btn-basic {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: italic;
+    color: var(--color-text-inverse);
+    background-color: var(--color-secondary-dark-500);
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+    .btn-basic img {
+        filter: brightness(0) saturate(100%) invert(31%) sepia(10%) saturate(2149%) hue-rotate(183deg) brightness(93%) contrast(89%);
+    }
+
+    .btn-basic:disabled {
+        color: rgb(218, 218, 218);
+        pointer-events: none;
+    }
+
+        .btn-basic:disabled img {
+            filter: brightness(0) saturate(100%) invert(54%) sepia(73%) saturate(283%) hue-rotate(175deg) brightness(88%) contrast(92%);
+        }
+
+    .btn-basic:hover {
+        background-color: rgba(106, 138, 196, 0.6) !important;
+    }
+
+
+.button-link-primary-semibold {
+    padding: 0px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: var(--color-text-link);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+    .button-link-primary-semibold:hover {
+        padding: 0px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        color: #5A81FA;
+        font-weight: 500;
+        text-decoration: underline;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 0px;
+    }
+
+
+    .button-link-primary-semibold:focus {
+        padding: 0px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        color: #5A81FA;
+        font-weight: 500;
+        text-decoration: underline;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 0px;
+    }
+
+
+.button-link-secondary-semibold {
+    padding: 0px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: rgb(109, 110, 112);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+    .button-link-secondary-semibold:hover {
+        padding: 0px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        color: rgb(109, 110, 112);
+        font-weight: 500;
+        text-decoration: underline;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 0px;
+    }
+
+
+.button-light-danger-semibold {
+    padding: 0px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: #b82f2f;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+    .button-light-danger-semibold:hover {
+        padding: 0px;
+        font-family: "Segoe UI";
+        font-size: 14px;
+        color: #b82f2f;
+        font-weight: 500;
+        text-decoration: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: 0px;
+    }
+
+
+.btn-danger {
+    height: 32px;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    background-color: rgba(229, 76, 95);
+    border-radius: 5px;
+    border-style: none;
+    border-width: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.btn-link-info {
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    color: rgb(102,144,200);
+}
+
+
+    .btn-link-info img {
+        filter: brightness(0) saturate(100%) invert(54%) sepia(73%) saturate(283%) hue-rotate(175deg) brightness(88%) contrast(92%);
+    }
+
+    .btn-link-info:disabled {
+        color: rgb(218, 218, 218);
+        pointer-events: none;
+    }
+
+        .btn-link-info:disabled img {
+            filter: brightness(0) saturate(100%) invert(54%) sepia(73%) saturate(283%) hue-rotate(175deg) brightness(88%) contrast(92%);
+        }
+
+
+/*.check-primary.dxbl-radio-group {
+    display:flex;
+    align-items:center;
+    text-align:center;
+}*/

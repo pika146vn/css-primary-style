@@ -1,0 +1,923 @@
+﻿:root {
+    /* ========== PRIMARY TONES  ========== */
+    --color-primary-25: #fff8f5;
+    --color-primary-50: #fff0ea;
+    --color-primary-100: #fde0cd;
+    --color-primary-200: #fbc09e;
+    --color-primary-300: #f9a070;
+    --color-primary-400: #f6854d;
+    --color-primary-500: #ed7d3d;
+    --color-primary-600: #d96f37;
+    --color-primary-700: #c25f30;
+    --color-primary-800: #a64f28;
+    --color-primary-900: #8a3f20;
+    --color-primary-950: #6e2f18;
+    /* ========== SECONDARY DARK TONES ========== */
+    --color-secondary-dark-25: #f6f7fa;
+    --color-secondary-dark-50: #eef0f6;
+    --color-secondary-dark-100: #dfe3ec;
+    --color-secondary-dark-200: #c4cad9;
+    --color-secondary-dark-300: #a9b1c6;
+    --color-secondary-dark-400: #8f98b3;
+    --color-secondary-dark-500: #3f527a;
+    --color-secondary-dark-600: #37496c;
+    --color-secondary-dark-700: #2f3f5e;
+    --color-secondary-dark-800: #273650;
+    --color-secondary-dark-900: #1f2c42;
+    --color-secondary-dark-950: #172334;
+    /* ========== SECONDARY LIGHT TONES ========== */
+    --color-secondary-light-25: #fcfcfd;
+    --color-secondary-light-50: #f7f8fa;
+    --color-secondary-light-100: #f1f3f7;
+    --color-secondary-light-200: #e7e9f0;
+    --color-secondary-light-300: #dde0ea;
+    --color-secondary-light-400: #d3d6e3;
+    --color-secondary-light-500: #eaecf2;
+    --color-secondary-light-600: #cfd1d7;
+    --color-secondary-light-700: #b4b6bc;
+    --color-secondary-light-800: #999ba1;
+    --color-secondary-light-900: #7e8086;
+    --color-secondary-light-950: #63656b;
+    /* ========== GRAY SCALE (based on #3f527a) ========== */
+    --gray-950: #2f3f5e; /* Rất đậm, dùng cho dark mode text */
+    --gray-900: #3f527a; /* Text chính */
+    --gray-800: #5a678b; /* Text phụ mạnh */
+    --gray-700: #6f7ca0; /* Text phụ */
+    --gray-600: #8b95b4; /* Icon, border nhẹ */
+    --gray-500: #a3acc7; /* Disabled text, border */
+    --gray-400: #bcc2da; /* Divider, input border */
+    --gray-300: #d5d9e5; /* Background nhẹ, hover */
+    --gray-200: #eaecf2; /* Nền card, input */
+    --gray-100: #f1f2f6; /* Nền sáng hơn */
+    --gray-50: #f7f8fa; /* Hover, surface nhẹ */
+    --gray-25: #fcfcfd; /* Nền siêu nhẹ */
+    /* ========== NEUTRALS WHITE TONES  ========== */
+    --color-white-100: rgba(255, 255, 255, 1);
+    --color-white-88: rgba(255, 255, 255, 0.88);
+    --color-white-72: rgba(255, 255, 255, 0.72);
+    --color-white-64: rgba(255, 255, 255, 0.64);
+    --color-white-52: rgba(255, 255, 255, 0.52);
+    --color-white-48: rgba(255, 255, 255, 0.48);
+    --color-white-32: rgba(255, 255, 255, 0.32);
+    --color-white-24: rgba(255, 255, 255, 0.24);
+    --color-white-16: rgba(255, 255, 255, 0.16);
+    --color-white-12: rgba(255, 255, 255, 0.12);
+    --color-white-8: rgba(255, 255, 255, 0.08);
+    --color-white-4: rgba(255, 255, 255, 0.04);
+    /* ========== NEUTRALS BLACK TONES  ========== */
+    --color-black-100: rgba(30, 30, 30, 1);
+    --color-black-88: rgba(30, 30, 30, 0.88);
+    --color-black-72: rgba(30, 30, 30, 0.72);
+    --color-black-64: rgba(30, 30, 30, 0.64);
+    --color-black-52: rgba(30, 30, 30, 0.52);
+    --color-black-48: rgba(30, 30, 30, 0.48);
+    --color-black-32: rgba(30, 30, 30, 0.32);
+    --color-black-24: rgba(30, 30, 30, 0.24);
+    --color-black-16: rgba(30, 30, 30, 0.16);
+    --color-black-12: rgba(30, 30, 30, 0.12);
+    --color-black-8: rgba(30, 30, 30, 0.08);
+    --color-black-4: rgba(30, 30, 30, 0.04);
+    /* ========== SUPPORTIVE SUCCESS TONES  ========== */
+    --color-success-950: #054F31;
+    --color-success-900: #0B6942;
+    --color-success-800: #0F8150;
+    --color-success-700: #149E66;
+    --color-success-600: #17B978;
+    --color-success-500: #1DD191;
+    --color-success-400: #4ADEA1;
+    --color-success-300: #7DECBF;
+    --color-success-200: #A6F4D5;
+    --color-success-100: #D0FCEB;
+    --color-success-50: #E9FFF5;
+    --color-success-25: #F4FFF9;
+    /* ========== SUPPORTIVE INFO TONES  ========== */
+    --color-info-950: #0B3A5B;
+    --color-info-900: #0D4A74;
+    --color-info-800: #0F5A8D;
+    --color-info-700: #1171B1;
+    --color-info-600: #1488D4;
+    --color-info-500: #1AA1F2;
+    --color-info-400: #42B3F5;
+    --color-info-300: #6CC8F8;
+    --color-info-200: #94DBFA;
+    --color-info-100: #BDEEFF;
+    --color-info-50: #E1F7FF;
+    --color-info-25: #F0FBFF;
+    /* ========== SUPPORTIVE WARNING TONES  ========== */
+    --color-warning-950: #5A3005;
+    --color-warning-900: #743D0A;
+    --color-warning-800: #8E4A0F;
+    --color-warning-700: #B15C17;
+    --color-warning-600: #D46E1F;
+    --color-warning-500: #F57C25;
+    --color-warning-400: #F7944E;
+    --color-warning-300: #F9AD77;
+    --color-warning-200: #FBC6A0;
+    --color-warning-100: #FDDDC7;
+    --color-warning-50: #FFF1EB;
+    --color-warning-25: #FFF8F5;
+    /* ========== SUPPORTIVE DANGER TONES  ========== */
+    --color-danger-950: #4F0A1F;
+    --color-danger-900: #690D2A;
+    --color-danger-800: #831036;
+    --color-danger-700: #A51445;
+    --color-danger-600: #C71854;
+    --color-danger-500: #E31B5B;
+    --color-danger-400: #E94A7D;
+    --color-danger-300: #F27DA1;
+    --color-danger-200: #F7A6BF;
+    --color-danger-100: #FCD0DF;
+    --color-danger-50: #FFE9F0;
+    --color-danger-25: #FFF4F7;
+    /* ========== TEXT COLOR MAPPINGS (WHITE TONES) ========== */
+    --color-white-pure: rgba(255, 255, 255, 1);
+    --color-white-semi: rgba(255, 255, 255, 0.67);
+    --color-white-neutral: rgba(255, 255, 255, 0.50);
+    --color-white-light: rgba(255, 255, 255, 0.34);
+    --color-white-disabled: rgba(255, 255, 255, 0.12);
+    /* ========== TEXT COLOR MAPPINGS (BLACK TONES) ========== */
+    --color-black-pure: rgba(63, 82, 122, 1);
+    --color-black-semi: rgba(63, 82, 122, 0.67);
+    --color-black-neutral: rgba(63, 82, 122, 0.50);
+    --color-black-light: rgba(63, 82, 122, 0.34);
+    --color-black-disabled: rgba(63, 82, 122, 0.12);
+    /*--color-primary: #ed7d3d;*/ /*Màu chính đại diện thương hiệu*/
+    /*--color-secondary: #3f527a;*/ /*Màu phụ hỗ trợ cho màu chính*/
+    /*--color-accent:*/ /*Màu nhấn nổi bật để tạo điểm nhấn*/
+    /*--color-background: #ffffff;*/ /*Màu nền chung cho layout hoặc card*/
+    /*--color-surface: #eaecf2;*/ /*Màu nền của các thành phần nổi trên nền*/
+    /*--color-border: #eaecf2;*/ /*Màu đường viền hoặc phân chia khối*/
+    /*--color-text: #3f527a;*/ /*Màu chữ chính*/
+    /*--color-text-muted*/ /*Màu chữ phụ, ít quan trọng hơn*/
+    /*--color-danger*/ /*Màu cảnh báo hoặc lỗi*/
+    /*--color-warning*/ /*Màu cảnh báo nhẹ*/
+    /*--color-success*/ /*Màu xác nhận hoặc thành công*/
+    /*--color-info*/ /*Màu dùng để hiển thị thông tin*/
+    /*--color-disabled*/ /*Màu dành cho trạng thái bị vô hiệu hóa*/
+    /*--color-hover*/ /*Màu hiệu ứng khi rê chuột*/
+    /*--color-active*/ /*Màu trạng thái đang chọn hoặc nhấn*/
+    /*--font-family-base*/ /*Font chữ mặc định cho toàn hệ thống*/
+    /*--font-family-heading*/ /*Font cho tiêu đề (đậm, nổi bật hơn)*/
+    /*--font-size-base*/ /*Cỡ chữ mặc định*/
+    /*--font-size-sm*/ /*Cỡ chữ nhỏ*/
+    /*--font-size-lg*/ /*Cỡ chữ lớn*/
+    /*--font-size-xl*/ /*Cỡ chữ siêu lớn (hero section, banner...)*/
+    /*--font-weight-normal*/ /*Trọng lượng bình thường*/
+    /*--font-weight-bold*/ /*Trọng lượng đậm*/
+    /*--font-weight-light*/ /*Trọng lượng nhẹ*/
+    /*--line-height-base*/ /*Khoảng cách dòng mặc định*/
+    /*--letter-spacing-base*/ /*Độ giãn chữ mặc định*/
+    /*--font-style-base*/ /*Kiểu chữ (normal, italic...)*/
+    /* ========== TEXT COLORS ========== */
+    --color-text-primary: #3f527a; /* Text chính, tiêu đề, nội dung quan trọng */
+    --color-text-secondary: #6f7ca0; /* Text phụ, mô tả, label */
+    --color-text-tertiary: #8b95b4; /* Text ít quan trọng hơn, caption */
+    --color-text-disabled: #a3acc7; /* Text bị vô hiệu hóa, placeholder */
+    --color-text-inverse: #ffffff; /* Text trên nền tối hoặc nút màu */
+    --color-text-link: #3f527a; /* Link mặc định */
+    --color-text-link-hover: #ed7d3d; /* Link khi hover (dùng màu primary để tạo điểm nhấn) */
+    /* ========== BACKGROUND COLORS ========== */
+    --color-bg-body: #f4f5f8; /* Nền tổng thể */
+    --color-bg-main: #ffffff; /* Nền vùng nội dung */
+    --color-bg-sidebar: #eaecf2; /* Nền sidebar */
+    --color-bg-card: #d5d9e5; /* Nền card/task */
+    --color-bg-section: #eaecf2; /* Nền phân vùng sprint */
+    --color-bg-hover: #f7f8fa; /* Hover nhẹ */
+    --color-bg-active: #ed7d3d1a; /* Active với màu primary (cam nhạt) */
+    --color-bg-disabled: #bcc2da; /* Nền trạng thái disabled */
+    /* ========== BORDER COLORS ========== */
+    --color-border-default: #e6ebf1;
+    --color-border-hover: #d5d9e5;
+    --color-border-focus: #3f527a;
+    --color-border-error: #E31B5B;
+    --color-border-disabled: #bcc2da;
+}
+
+
+
+
+
+
+
+/* ========== FONT ========== */
+
+
+.font-primary {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: var(--color-text-primary);
+}
+
+
+.font-primary-semibold {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.font-primary-small {
+    font-family: "Segoe UI";
+    font-size: 12px;
+    color: var(--color-text-primary);
+}
+
+
+/* ========== FONT V1 ========== */
+
+.font-basic {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: var(--color-black-pure);
+}
+
+
+.font-basic-semibold {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-black-pure);
+}
+
+
+/* ========== PANEL ========== */
+
+.pnl-info {
+    background-color: var(--color-bg-body);
+}
+
+.pnl-info-radius {
+    background-color: var(--color-bg-body);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------QAS Skin------------------------------------------------*/
+/*----------Hiện tại chưa tách riêng ra file khác được, cần xin ý kiến của người quản lý Shell---------*/
+.ppx-0 {
+    padding: 0px;
+}
+
+.ppxr-0 {
+    padding-right: 0px;
+}
+
+.ppxl-0 {
+    padding-left: 0px;
+}
+
+.ppxt-0 {
+    padding-top: 0px;
+}
+
+.ppxb-0 {
+    padding-bottom: 0px;
+}
+
+
+
+.ppx-4 {
+    padding: 4px;
+}
+
+.ppxr-4 {
+    padding-right: 4px;
+}
+
+.ppxl-4 {
+    padding-left: 4px;
+}
+
+.ppxt-4 {
+    padding-top: 4px;
+}
+
+.ppxb-4 {
+    padding-bottom: 4px;
+}
+
+
+.ppx-8 {
+    padding: 8px;
+}
+
+.ppxr-8 {
+    padding-right: 8px;
+}
+
+.ppxl-8 {
+    padding-left: 8px;
+}
+
+.ppxt-8 {
+    padding-top: 8px;
+}
+
+.ppxb-8 {
+    padding-bottom: 8px;
+}
+
+
+.ppx-12 {
+    padding: 12px;
+}
+
+.ppxr-12 {
+    padding-right: 12px;
+}
+
+.ppxl-12 {
+    padding-left: 12px;
+}
+
+.ppxt-12 {
+    padding-top: 12px;
+}
+
+.ppxb-12 {
+    padding-bottom: 12px;
+}
+
+
+.ppx-16 {
+    padding: 16px;
+}
+
+.ppxr-16 {
+    padding-right: 16px;
+}
+
+.ppxl-16 {
+    padding-left: 16px;
+}
+
+.ppxt-16 {
+    padding-top: 16px;
+}
+
+.ppxb-16 {
+    padding-bottom: 16px;
+}
+
+
+.ppx-32 {
+    padding: 32px;
+}
+
+.ppxr-32 {
+    padding-right: 32px;
+}
+
+.ppxl-32 {
+    padding-left: 32px;
+}
+
+.ppxt-32 {
+    padding-top: 32px;
+}
+
+.ppxb-32 {
+    padding-bottom: 32px;
+}
+
+
+.ppx-64 {
+    padding: 64px;
+}
+
+.ppxr-64 {
+    padding-right: 64px;
+}
+
+.ppxl-64 {
+    padding-left: 64px;
+}
+
+.ppxt-64 {
+    padding-top: 64px;
+}
+
+.ppxb-64 {
+    padding-bottom: 64px;
+}
+
+
+.mpx-32 {
+    margin: 32px;
+}
+
+.mpxr-32 {
+    margin-right: 32px;
+}
+
+.mpxl-32 {
+    margin-left: 32px;
+}
+
+.mpxt-32 {
+    margin-top: 32px;
+}
+
+.mpxb-32 {
+    margin-bottom: 32px;
+}
+
+
+
+.mpx-12 {
+    margin: 12px;
+}
+
+.mpxr-12 {
+    margin-right: 12px;
+}
+
+.mpxl-12 {
+    margin-left: 12px;
+}
+
+.mpxt-12 {
+    margin-top: 12px;
+}
+
+.mpxb-12 {
+    margin-bottom: 12px;
+}
+
+
+
+.mpx-16 {
+    margin: 16px;
+}
+
+.mpxr-16 {
+    margin-right: 16px;
+}
+
+.mpxl-16 {
+    margin-left: 16px;
+}
+
+.mpxt-16 {
+    margin-top: 16px;
+}
+
+.mpxb-16 {
+    margin-bottom: 16px;
+}
+
+
+.mpx-8 {
+    margin: 8px;
+}
+
+.mpxr-8 {
+    margin-right: 8px;
+}
+
+.mpxl-8 {
+    margin-left: 8px;
+}
+
+.mpxt-8 {
+    margin-top: 8px;
+}
+
+.mpxb-8 {
+    margin-bottom: 8px;
+}
+
+
+.mpx-4 {
+    margin: 4px;
+}
+
+.mpxr-4 {
+    margin-right: 4px;
+}
+
+.mpxl-4 {
+    margin-left: 4px;
+}
+
+.mpxt-4 {
+    margin-top: 4px;
+}
+
+.mpxb-4 {
+    margin-bottom: 4px;
+}
+
+
+.mpx-64 {
+    margin: 64px;
+}
+
+.mpxr-64 {
+    margin-right: 64px;
+}
+
+.mpxl-64 {
+    margin-left: 64px;
+}
+
+.mpxt-64 {
+    margin-top: 64px;
+}
+
+.mpxb-64 {
+    margin-bottom: 64px;
+}
+
+
+.pnl-driver-all {
+    border: 1px solid #D6D6D3;
+}
+
+.pnl-divider-bottom {
+    border-bottom: 1px solid #D6D6D3;
+}
+
+.pnl-divider-right {
+    border-right: 1px solid #D6D6D3;
+}
+
+
+
+.pnl-primary {
+    background-color: transparent;
+}
+
+
+.pnl-secondary {
+    background-color: #EAECF2;
+}
+
+    .pnl-secondary.radius.small {
+        border-radius: 5px;
+    }
+
+
+.pnl-secondary-radius {
+    background-color: #EAECF2;
+    border-radius: 10px;
+}
+
+
+.pnl-basic {
+    background-color: white;
+}
+
+.pnl-basic-radius {
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+.pnl-success {
+    background-color: #ed7d3d;
+}
+
+.hfont-primary-semibold {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+
+
+.font-small {
+    font-size: 12px;
+}
+
+
+
+
+
+.font-primary.semibold {
+    font-weight: 500;
+}
+
+
+.font-secondary {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: #6D7589;
+}
+
+.font-secondary-small {
+    font-family: "Segoe UI";
+    font-size: 12px;
+    color: #6D7589;
+}
+
+.font-secondary-semibold {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: #6D7589;
+}
+
+
+
+
+
+
+.font-dark {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: rgb(98, 141, 199);
+}
+
+.font-dark-semibold {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(98, 141, 199);
+}
+
+
+.font-danger {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    color: rgba(229, 76, 95);
+}
+
+.font-danger-semibold {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(229, 76, 95);
+}
+
+
+
+
+/*<!-- #region Grid -->*/
+
+/*<!-- #endregion -->*/
+
+
+
+
+
+dropdown-dark.dropdown-toggle::after {
+    content: "\f282"; /* mã của icon trong bootstrap icons */
+}
+
+
+
+
+
+
+
+
+.border-all-info {
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.border-left-info {
+    border-left: 1px solid rgb(218, 218, 218);
+}
+
+
+.border-all-danger {
+    border: 1px solid rgb(229, 76, 95);
+}
+
+.border-left-danger {
+    border-left: 1px solid rgb(229, 76, 95);
+}
+
+
+
+
+.box-primary {
+    --dxbl-text-edit-focus-shadow-color: rgba(90, 129, 250, 16%);
+    --dxbl-text-edit-focus-border-color: rgba(90, 129, 250, 32%);
+}
+
+    /*region dxbl-edit-btn-dropdown (các button của combobox hay dateedit) -->*/
+    .box-primary .dxbl-edit-btn-dropdown {
+        border-left: none;
+    }
+
+    .box-primary svg {
+        color: rgb(106, 138, 196) !important;
+        font-size: 16px
+    }
+/*#endregion*/
+
+
+/* #region Radio group */
+/*.radio-primary .dxbl-checkbox {
+    --dxbl-checkbox-radio-checked-border-color: rgb(106, 138, 196);
+    --dxbl-checkbox-radio-check-bg: rgb(106, 138, 196);
+    --dxbl-checkbox-switch-checked-bg: rgb(106, 138, 196);
+    --dxbl-checkbox-switch-checked-hover-bg: rgb(106, 138, 196);
+    --dxbl-checkbox-radio-checked-hover-bg: rgb(106, 138, 196);
+}*/
+/* #endregion */
+
+
+.box-info {
+    --dxbl-text-edit-focus-shadow-color: transparent;
+    --dxbl-text-edit-focus-border-color: rgba(109,110,112,24%);
+    --dxbl-text-edit-border-style: dashed;
+    --dxbl-text-edit-bg: none;
+    --dxbl-text-edit-btn-bg: none;
+    --dxbl-btn-border-style: dashed;
+}
+
+
+
+.box-basic {
+    --dxbl-text-edit-focus-shadow-color: transparent;
+    --dxbl-text-edit-focus-border-color: none;
+}
+
+.box-primary::placeholder {
+    font-style: italic;
+}
+
+
+
+
+
+.datetime-picker-primary > .dxbl-btn-group dxbl-btn-group-right > .dxbl-btn {
+    color: #5A81FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dxbl-text-edit.dxbl-tag-box.tag-box-dropdown {
+    --dxbl-text-edit-btn-padding-x: 4px;
+    --dxbl-text-edit-btn-padding-y: 4px;
+    --dxbl-text-edit-focus-border-color: transparent;
+    --dxbl-text-edit-border-radius: 5px;
+    --dxbl-text-edit-focus-shadow-color: rgba(90, 129, 250, 16%);
+    --dxbl-text-edit-focus-border-color: rgba(90, 129, 250, 32%);
+}
+
+    /* .dxbl-text-edit.dxbl-tag-box.tag-box-dropdown > .dxbl-btn.dxbl-edit-btn-clear {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }*/
+    .dxbl-text-edit.dxbl-tag-box.tag-box-dropdown:after {
+        font-family: "FontAwesome";
+        content: "\f0d7";
+        font-size: 8px;
+        color: black;
+        display: block;
+        width: 12px;
+        margin-left: 0px;
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/* .checkbox-primary .dxbl-checkbox > .dxbl-text:last-child {
+        padding-left: 4px;
+    }*/
+/*.checkbox-primary:focus {
+    border: 1px solid rgba(90, 129, 250, 32%);
+    box-shadow: 0px 0px 2px 2px rgba(90, 129, 250, 16%);
+}
+
+
+    .checkbox-primary:checked {
+        background-color: rgba(90, 129, 250);
+        border-color: rgba(90, 129, 250);
+    }
+*/
+
+
+
+
+        /*input[type="radio"].radio-primary:disabled:checked:before {
+            content: '';
+            display: block;
+            width: 9px;*/ /* Kích thước vòng tròn bên trong */
+            /*height: 9px;*/ /* Kích thước vòng tròn bên trong */
+            /*border-color: #6c757d !important;*/ /* Màu viền khi được chọn */
+            /*background-color: #6c757d;*/ /* Màu vòng tròn bên trong khi bị vô hiệu hóa */
+            /*border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }*/
+
+/*.checkbox-primary {
+    border-color: rgba(90, 129, 250);
+}
+
+
+.checkbox-primary:focus 
+{
+    border: 1px solid rgba(90, 129, 250, 32%);
+    box-shadow: 0px 0px 2px 2px rgba(90, 129, 250, 16%);
+}
+
+
+.checkbox-primary:checked 
+{
+    background-color: rgba(90, 129, 250);
+    border-color: rgba(90, 129, 250);
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Thay đổi màu thanh cuộn khi hover */
+/*table::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }*/
+
+/*
+Trong đoạn mã trên:
+• table::-webkit-scrollbar tùy chỉnh kích thước của thanh cuộn.
+
+• table::-webkit-scrollbar-track tùy chỉnh track của thanh cuộn, bao gồm cả margin.
+
+• table::-webkit-scrollbar-thumb tùy chỉnh thanh cuộn chính.
+
+Lưu ý rằng các bộ chọn này chỉ hoạt động trên các trình duyệt dựa trên WebKit. Đối với các trình duyệt khác như Firefox, bạn sẽ cần sử dụng các phương pháp khác hoặc các tiện ích mở rộng.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img.ic-basic {
+    filter: brightness(0) saturate(100%) invert(64%) sepia(8%) saturate(3198%) hue-rotate(179deg) brightness(84%) contrast(82%);
+}
+
+
+img.ic-light {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(7%) saturate(0%) hue-rotate(120deg) brightness(93%) contrast(91%);
+}
+
+
+
+
+
+
+
+/*Tabs*/
+
+
+
+/*.tabs-primary .dxbl-scroll-viewer-content > ul > li > .dxbl-active {
+}
+*/

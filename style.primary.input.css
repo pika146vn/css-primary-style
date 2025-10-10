@@ -1,0 +1,93 @@
+﻿/* ========== INPUT ========== */
+.txt-primary {
+    border: 1px solid var(--color-border-default);
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+    box-sizing: border-box;
+    resize: none;
+    height: 32px;
+    width: 100%;
+    --dxbl-text-edit-btn-padding-x: 4px;
+    --dxbl-text-edit-btn-padding-y: 4px;
+    --dxbl-text-edit-border-color: transparent;
+    --dxbl-text-edit-border-style: none;
+    --dxbl-text-edit-border-width: 0px;
+    --dxbl-text-edit-focus-border-color: transparent;
+    --dxbl-text-edit-border-radius: 5px;
+    --dxbl-text-edit-focus-shadow-color: rgba(63,82,122, 16%);
+    --dxbl-text-edit-focus-border-color: rgba(63,82,122, 32%);
+    /*--dxbl-text-edit-placeholder*/
+    /*--dxbl-text-edit-line-height: 1.6;*/
+}
+
+.txt-primary:focus {
+    outline: none;
+    border: 1px solid rgba(90, 129, 250, 32%);
+    box-shadow: 0px 0px 2px 2px rgba(63,82,122, 0.2);
+    --dxbl-text-edit-border-color: transparent;
+    --dxbl-text-edit-border-style: none;
+    --dxbl-text-edit-border-width: 0px;
+    /* --dxbl-text-edit-focus-shadow-color: rgba(90, 129, 250, 16%);
+    --dxbl-text-edit-focus-border-color: rgba(90, 129, 250, 32%);*/
+}
+
+    /*************************/
+    /*21/01/2025: Chỗ này không phải là bị trùng nha, .txt-primary ::placeholder có cách nhau dấu cách vì sài control của devexpress*/
+    .txt-primary ::placeholder {
+        font-style: italic;
+        color: var(--color-secondary-dark-300);
+    }
+
+    .txt-primary::placeholder {
+        font-style: italic;
+        color: var(--color-secondary-dark-300);
+    }
+    /*************************/
+
+    .txt-primary .dxbl-image {
+        --dxbl-image-height: 16px;
+        --dxbl-image-width: 16px;
+        /*color: #4DBBB0 !important;*/
+    }
+
+
+    .txt-primary.small-img .dxbl-image {
+        --dxbl-image-height: 10px;
+        --dxbl-image-width: 10px;
+    }
+
+
+    .txt-primary .dxbl-text-edit > .dxbl-btn, .dxbl-text-edit > .dxbl-btn-group > .dxbl-btn {
+        border: none;
+    }
+
+
+        .txt-primary .dxbl-text-edit > .dxbl-btn-group-vertical > .dxbl-btn > svg.dxbl-image, .dxbl-text-edit > .dxbl-btn-group > .dxbl-btn > svg.dxbl-image, .dxbl-text-edit > .dxbl-btn > svg.dxbl-image {
+            color: var(--color-secondary-dark-500);
+          /*  opacity: var(--dxbl-text-edit-btn-image-color, var(--dxbl-image-color, 70%));*/
+        }
+
+
+
+
+.txt-area-primary {
+    border: 1px solid var(--color-border-default);
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    resize: none;
+    display: block;
+}
+
+
+    .txt-area-primary:focus {
+        outline: none;
+        border: 1px solid rgba(90, 129, 250, 32%);
+        box-shadow: 0px 0px 2px 2px rgba(90, 129, 250, 16%);
+    }

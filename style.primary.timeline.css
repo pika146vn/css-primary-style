@@ -1,0 +1,129 @@
+﻿.timeline-primary-r {
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+}
+
+    /* .timeline-primary-r:before {
+        position: absolute;
+        left: 8px;
+        content: ' ';
+        display: block;
+        width: 2px;
+        height: 100%;
+        background: #5A81FA;
+        background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+        background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        z-index: 5;
+    }*/
+
+
+    /*.timeline-primary-r li:before {
+        position: absolute;
+        left: 8px;
+        content: ' ';
+        display: block;
+        width: 2px;
+        height: 100%;
+        background: rgb(218, 218, 218);
+        background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(218, 218, 218) 8%, rgb(218, 218, 218) 92%, rgba(80,80,80,0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+        background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(218, 218, 218) 8%, rgb(218, 218, 218) 92%, rgba(80,80,80,0) 100%);
+        background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(218, 218, 218) 8%, rgb(218, 218, 218) 92%, rgba(80,80,80,0) 100%);
+        background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(218, 218, 218) 8%, rgb(218, 218, 218) 92%, rgba(80,80,80,0) 100%);
+        background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(218, 218, 218) 8%, rgb(218, 218, 218) 92%, rgba(80,80,80,0) 100%);
+        z-index: 5;
+    }
+
+    .timeline-primary-r li.selected:before {
+        background: #5A81FA;
+        background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+        background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+        background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, #5A81FA 8%, #5A81FA 92%, rgba(80,80,80,0) 100%);
+    }*/
+
+
+
+    .timeline-primary-r li:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+
+    .timeline-primary-r .direction-r:before {
+        position: absolute;
+        top: 4px;
+        left: -15px;
+        content: ' ';
+        display: block;
+        width: 1px;
+        height: 100%;
+        background: rgb(218, 218, 218);
+        z-index: 5;
+    }
+
+
+    .timeline-primary-r .direction-r {
+        position: relative;
+        width: auto;
+        float: left;
+        margin-left: -8px;
+    }
+
+        .timeline-primary-r .direction-r.selected:before {
+            background: #5A81FA;
+        }
+
+
+
+
+
+
+    .timeline-primary-r .flag-wrapper {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+
+
+
+
+    .timeline-primary-r .direction-r .flag:before {
+        position: absolute;
+        top: 50%;
+        left: -21px;
+        content: ' ';
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+        background: rgb(218, 218, 218);
+        border-radius: 12px;
+        z-index: 10;
+    }
+
+    .timeline-primary-r .direction-r .flag.selected:before {
+        background: #5A81FA;
+    }
+
+
+
+    .timeline-primary-r .direction-r .flag:before {
+        left: -21px;
+    }
+
+
+    .timeline-primary-r .direction-r .time-wrapper {
+        float: right;
+    }

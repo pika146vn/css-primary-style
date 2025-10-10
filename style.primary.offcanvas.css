@@ -1,0 +1,12 @@
+﻿.offcanvas-primary .offcanvas-header {
+    width: 100%;
+    padding: 0px;
+    height: auto;
+}
+
+
+.offcanvas-primary .offcanvas-body {
+    width: 100%;
+    overflow: auto;
+    padding: 0px;
+}

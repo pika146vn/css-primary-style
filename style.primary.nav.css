@@ -1,0 +1,31 @@
+﻿.nav-basic .nav-item {
+    background-color: transparent;
+}
+
+
+.nav-basic .nav-link, .nav-basic > .nav-link {
+    color: rgb(49, 57, 79,0.6);
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+}
+
+
+
+    .nav-basic .nav-link.active, .nav-basic .show > .nav-link {
+        /* color: #5A81FA;*/
+        color: rgb(49, 57, 79);
+        font-family: "Segoe UI";
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: transparent;
+    }

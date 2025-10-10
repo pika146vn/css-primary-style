@@ -1,0 +1,65 @@
+﻿input[type=radio].check-group-primary {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    outline: none;
+    content: none;
+}
+
+    input[type=radio].check-group-primary:before {
+        font-family: "FontAwesome";
+        content: "\f00c";
+        font-size: 12px;
+        color: transparent !important;
+        display: block;
+        padding-top: 1px;
+        padding-left: 1.6px;
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--color-border-default);
+        border-radius: 4px;
+    }
+
+    input[type=radio].check-group-primary:checked:before {
+        color: var(--color-secondary-500) !important;
+        border: 1px solid var(--color-secondary-500) !important;
+    }
+
+
+/* Thiết lập radio button ban đầu */
+input[type="radio"].radio-primary {
+    appearance: none;
+    border: 1px solid rgb(109, 110, 112,32%);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+    /* Thiết lập radio button khi được chọn */
+    input[type="radio"].radio-primary:checked {
+        border-color: #5A81FA !important; /* Màu viền khi được chọn */
+    }
+
+        input[type="radio"].radio-primary:checked:before {
+            content: '';
+            display: block;
+            width: 9px; /* Kích thước vòng tròn bên trong */
+            height: 9px; /* Kích thước vòng tròn bên trong */
+            background-color: #5A81FA !important; /* Màu vòng tròn bên trong khi được chọn */
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    input[type="radio"].radio-primary:disabled {
+        /*appearance: none;
+        border: 1px solid #6c757d;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        position: relative;*/
+        opacity: 0.5;
+    }
