@@ -169,8 +169,8 @@
     /*--letter-spacing-base*/ /*Độ giãn chữ mặc định*/
     /*--font-style-base*/ /*Kiểu chữ (normal, italic...)*/
     /* ========== TEXT COLORS ========== */
-    --color-text-primary: #3f527a; /* Text chính, tiêu đề, nội dung quan trọng */
-    --color-text-secondary: #6f7ca0; /* Text phụ, mô tả, label */
+    --color-text-primary: #111827; /* Text chính, tiêu đề, nội dung quan trọng */
+    --color-text-secondary: #6f7ca0; /* Text phủ, mô tả, label */
     --color-text-tertiary: #8b95b4; /* Text ít quan trọng hơn, caption */
     --color-text-disabled: #a3acc7; /* Text bị vô hiệu hóa, placeholder */
     --color-text-inverse: #ffffff; /* Text trên nền tối hoặc nút màu */
