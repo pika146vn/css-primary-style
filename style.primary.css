@@ -177,7 +177,7 @@
     --color-text-link: #3f527a; /* Link mặc định */
     --color-text-link-hover: #ed7d3d; /* Link khi hover (dùng màu primary để tạo điểm nhấn) */
     /* ========== BACKGROUND COLORS ========== */
-    --color-bg-body: #f4f5f8; /* Nền tổng thể */
+    --color-bg-body: #F2f3f5; /* Nền tổng thể */
     --color-bg-main: #ffffff; /* Nền vùng nội dung */
     --color-bg-sidebar: #eaecf2; /* Nền sidebar */
     --color-bg-card: #d5d9e5; /* Nền card/task */
