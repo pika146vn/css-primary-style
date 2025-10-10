@@ -1,4 +1,4 @@
-﻿.dxbl-modal > .dxbl-modal-root > .dxbl-popup.popup-primary.dxbl-popup-verticalalignment-center {
+.dxbl-modal > .dxbl-modal-root > .dxbl-popup.popup-primary.dxbl-popup-verticalalignment-center {
     border-radius: 10px;
     overflow: auto;
 }
@@ -30,7 +30,7 @@
         }
 
 /*.modal-primary .modal-title {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: black;
@@ -81,7 +81,7 @@
 
 
     .modal-primary > .modal-dialog > .modal-content > .modal-header > .modal-title, .modal-info > .modal-dialog > .modal-content > .modal-header > .modal-title {
-        font-family: "Segoe UI";
+        font-family: "Inter";
         font-size: 14px;
         font-weight: 500;
         color: black;

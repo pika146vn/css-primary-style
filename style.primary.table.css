@@ -1,4 +1,4 @@
-﻿/* ========== TABLE ========== */
+/* ========== TABLE ========== */
 .table-primary-radius {
     border-spacing: 0;
     border-collapse: separate;
@@ -70,7 +70,7 @@
         padding: 8px;
         vertical-align: middle;
         text-align: left;
-        font-family: "Segoe UI";
+        font-family: "Inter";
         font-size: 14px;
         font-style: italic;
         font-weight: 500;
@@ -86,7 +86,7 @@
         padding: 8px;
         vertical-align: middle;
         text-align: left;
-        font-family: "Segoe UI";
+        font-family: "Inter";
         font-size: 14px;
         font-style: italic;
         font-weight: 500;
@@ -167,22 +167,22 @@
     display: table;
 }*/
 
-    /* Tùy chỉnh thanh cuộn cho WebKit */
+    /* T�y ch?nh thanh cu?n cho WebKit */
     /*table::-webkit-scrollbar {
-    width: 12px;*/ /* Độ rộng của thanh cuộn dọc */
-    /*height: 12px;*/ /* Độ cao của thanh cuộn ngang */
+    width: 12px;*/ /* �? r?ng c?a thanh cu?n d?c */
+    /*height: 12px;*/ /* �? cao c?a thanh cu?n ngang */
     /*}*/
 
     .table-primary-radius::-webkit-scrollbar-track {
-        /*background: #f1f1f1;*/ /* Màu nền của track */
-        margin-top: 40px; /* Margin của track */
+        /*background: #f1f1f1;*/ /* M�u n?n c?a track */
+        margin-top: 40px; /* Margin c?a track */
     }
 
     .table-primary-radius::-webkit-scrollbar-thumb {
-        background: #888; /*Màu của thanh cuộn */
-        border-top-right-radius: 10px; /* Bo tròn góc của thanh cuộn */
-        border-bottom-right-radius: 10px; /* Bo tròn góc của thanh cuộn */
-        /*border: 3px solid #f1f1f1;*/ /* Đường viền của thanh cuộn */
+        background: #888; /*M�u c?a thanh cu?n */
+        border-top-right-radius: 10px; /* Bo tr�n g�c c?a thanh cu?n */
+        border-bottom-right-radius: 10px; /* Bo tr�n g�c c?a thanh cu?n */
+        /*border: 3px solid #f1f1f1;*/ /* �u?ng vi?n c?a thanh cu?n */
     }
 
 

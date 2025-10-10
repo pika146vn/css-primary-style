@@ -1,4 +1,4 @@
-﻿.check-primary .dxbl-checkbox.dxbl-checkbox-radio {
+.check-primary .dxbl-checkbox.dxbl-checkbox-radio {
     --dxbl-checkbox-radio-size: 16px;
     --dxbl-checkbox-radio-checked-border-color: var(--color-secondary-dark-500);
     --dxbl-checkbox-radio-check-bg: var(--color-secondary-dark-500);

@@ -269,7 +269,7 @@
     /*--letter-spacing-base*/ /*Độ giãn chữ mặc định*/
     /*--font-style-base*/ /*Kiểu chữ (normal, italic...)*/
     /* ========== TEXT COLORS ========== */
-    --color-text-primary: #111827; /* Text chính, tiêu đề, nội dung quan trọng */
+    --color-text-primary: #0D0D25; /* Text chính, tiêu đề, nội dung quan trọng */
     --color-text-secondary: #6f7ca0; /* Text phủ, mô tả, label */
     --color-text-tertiary: #8b95b4; /* Text ít quan trọng hơn, caption */
     --color-text-disabled: #a3acc7; /* Text bị vô hiệu hóa, placeholder */
@@ -303,21 +303,21 @@
 
 
 .font-primary {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     color: var(--color-text-primary);
 }
 
 
 .font-primary-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: var(--color-text-primary);
 }
 
 .font-primary-small {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 12px;
     color: var(--color-text-primary);
 }
@@ -326,14 +326,14 @@
 /* ========== FONT V1 ========== */
 
 .font-basic {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     color: var(--color-black-pure);
 }
 
 
 .font-basic-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: var(--color-black-pure);
@@ -691,7 +691,7 @@
 }
 
 .hfont-primary-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -713,19 +713,19 @@
 
 
 .font-secondary {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     color: #6D7589;
 }
 
 .font-secondary-small {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 12px;
     color: #6D7589;
 }
 
 .font-secondary-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: #6D7589;
@@ -737,13 +737,13 @@
 
 
 .font-dark {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     color: rgb(98, 141, 199);
 }
 
 .font-dark-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: rgb(98, 141, 199);
@@ -751,13 +751,13 @@
 
 
 .font-danger {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     color: rgba(229, 76, 95);
 }
 
 .font-danger-semibold {
-    font-family: "Segoe UI";
+    font-family: "Inter";
     font-size: 14px;
     font-weight: 500;
     color: rgba(229, 76, 95);

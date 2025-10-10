@@ -1,4 +1,4 @@
-Ôªø/* ========== INPUT ========== */
+/* ========== INPUT ========== */
 .txt-primary {
     border: 1px solid var(--color-border-default);
     border-radius: 5px;
@@ -33,7 +33,7 @@
 }
 
     /*************************/
-    /*21/01/2025: Ch·ªó n√†y kh√¥ng ph·∫£i l√† b·ªã tr√πng nha, .txt-primary ::placeholder c√≥ c√°ch nhau d·∫•u c√°ch v√¨ s√†i control c·ªßa devexpress*/
+    /*21/01/2025: Ch? n‡y khÙng ph?i l‡ b? tr˘ng nha, .txt-primary ::placeholder cÛ c·ch nhau d?u c·ch vÏ s‡i control c?a devexpress*/
     .txt-primary ::placeholder {
         font-style: italic;
         color: var(--color-secondary-dark-300);

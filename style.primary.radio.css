@@ -1,4 +1,4 @@
-﻿input[type=radio].check-group-primary {
+input[type=radio].check-group-primary {
     -moz-appearance: none;
     -webkit-appearance: none;
     -o-appearance: none;
@@ -26,7 +26,7 @@
     }
 
 
-/* Thiết lập radio button ban đầu */
+/* Thi?t l?p radio button ban d?u */
 input[type="radio"].radio-primary {
     appearance: none;
     border: 1px solid rgb(109, 110, 112,32%);
@@ -36,17 +36,17 @@ input[type="radio"].radio-primary {
     position: relative;
 }
 
-    /* Thiết lập radio button khi được chọn */
+    /* Thi?t l?p radio button khi du?c ch?n */
     input[type="radio"].radio-primary:checked {
-        border-color: #5A81FA !important; /* Màu viền khi được chọn */
+        border-color: #5A81FA !important; /* M�u vi?n khi du?c ch?n */
     }
 
         input[type="radio"].radio-primary:checked:before {
             content: '';
             display: block;
-            width: 9px; /* Kích thước vòng tròn bên trong */
-            height: 9px; /* Kích thước vòng tròn bên trong */
-            background-color: #5A81FA !important; /* Màu vòng tròn bên trong khi được chọn */
+            width: 9px; /* K�ch thu?c v�ng tr�n b�n trong */
+            height: 9px; /* K�ch thu?c v�ng tr�n b�n trong */
+            background-color: #5A81FA !important; /* M�u v�ng tr�n b�n trong khi du?c ch?n */
             border-radius: 50%;
             position: absolute;
             top: 50%;
