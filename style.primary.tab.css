@@ -17,7 +17,7 @@
 
 .tab-basic .nav-item .nav-link {
     color: var(--color-text-primary);
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 12px;
     font-weight: 500;
     padding-right: 10px;
@@ -40,7 +40,7 @@
 
         .tab-basic .nav-item .active {
             color: var(--color-text-primary);
-            font-family: "Inter";
+            font-family: "Segoe UI";
             font-size: 12px;
             font-weight: 500;
             padding-right: 10px;
@@ -97,7 +97,7 @@
 
         .tab-info .nav-item .nav-link {
             color: var(--color-text-primary);
-            font-family: "Inter";
+            font-family: "Segoe UI";
             font-size: 12px;
             font-weight: 500;
             padding-right: 10px;
@@ -179,7 +179,7 @@
 /*  .tabs-primary .dxbl-scroll-viewer-content > ul > li > .dxbl-tabs-item {
         border: none !important;
         color: rgb(49, 57, 79,0.6);
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         font-weight: 500;
     }*/
@@ -194,7 +194,7 @@
 .dxbl-tabs.tabs-primary > .dxbl-tabs-tablist > ul > li > .dxbl-tabs-item {
     border: none !important;
     color: var(--color-text-primary);
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 12px;
     font-weight: 500;
     padding-left: 8px;

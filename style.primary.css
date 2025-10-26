@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'Fz Albula';
     src: url('/fonts/AlbulaPro-Regular.otf') format('truetype');
 }
@@ -139,18 +139,18 @@
     --color-secondary-light-900: #7e8086;
     --color-secondary-light-950: #63656b;
     /* ========== GRAY SCALE (based on #3f527a) ========== */
-    --gray-950: #2f3f5e; /* Rất đậm, dùng cho dark mode text */
-    --gray-900: #3f527a; /* Text chính */
-    --gray-800: #5a678b; /* Text phụ mạnh */
-    --gray-700: #6f7ca0; /* Text phụ */
-    --gray-600: #8b95b4; /* Icon, border nhẹ */
+    --gray-950: #2f3f5e; /* R?t d?m, d�ng cho dark mode text */
+    --gray-900: #3f527a; /* Text ch�nh */
+    --gray-800: #5a678b; /* Text ph? m?nh */
+    --gray-700: #6f7ca0; /* Text ph? */
+    --gray-600: #8b95b4; /* Icon, border nh? */
     --gray-500: #a3acc7; /* Disabled text, border */
     --gray-400: #bcc2da; /* Divider, input border */
-    --gray-300: #d5d9e5; /* Background nhẹ, hover */
-    --gray-200: #eaecf2; /* Nền card, input */
-    --gray-100: #f1f2f6; /* Nền sáng hơn */
-    --gray-50: #f7f8fa; /* Hover, surface nhẹ */
-    --gray-25: #fcfcfd; /* Nền siêu nhẹ */
+    --gray-300: #d5d9e5; /* Background nh?, hover */
+    --gray-200: #eaecf2; /* N?n card, input */
+    --gray-100: #f1f2f6; /* N?n s�ng hon */
+    --gray-50: #f7f8fa; /* Hover, surface nh? */
+    --gray-25: #fcfcfd; /* N?n si�u nh? */
     /* ========== NEUTRALS WHITE TONES  ========== */
     --color-white-100: rgba(255, 255, 255, 1);
     --color-white-88: rgba(255, 255, 255, 0.88);
@@ -241,50 +241,50 @@
     --color-black-neutral: rgba(63, 82, 122, 0.50);
     --color-black-light: rgba(63, 82, 122, 0.34);
     --color-black-disabled: rgba(63, 82, 122, 0.12);
-    /*--color-primary: #ed7d3d;*/ /*Màu chính đại diện thương hiệu*/
-    /*--color-secondary: #3f527a;*/ /*Màu phụ hỗ trợ cho màu chính*/
-    /*--color-accent:*/ /*Màu nhấn nổi bật để tạo điểm nhấn*/
-    /*--color-background: #ffffff;*/ /*Màu nền chung cho layout hoặc card*/
-    /*--color-surface: #eaecf2;*/ /*Màu nền của các thành phần nổi trên nền*/
-    /*--color-border: #eaecf2;*/ /*Màu đường viền hoặc phân chia khối*/
-    /*--color-text: #3f527a;*/ /*Màu chữ chính*/
-    /*--color-text-muted*/ /*Màu chữ phụ, ít quan trọng hơn*/
-    /*--color-danger*/ /*Màu cảnh báo hoặc lỗi*/
-    /*--color-warning*/ /*Màu cảnh báo nhẹ*/
-    /*--color-success*/ /*Màu xác nhận hoặc thành công*/
-    /*--color-info*/ /*Màu dùng để hiển thị thông tin*/
-    /*--color-disabled*/ /*Màu dành cho trạng thái bị vô hiệu hóa*/
-    /*--color-hover*/ /*Màu hiệu ứng khi rê chuột*/
-    /*--color-active*/ /*Màu trạng thái đang chọn hoặc nhấn*/
-    /*--font-family-base*/ /*Font chữ mặc định cho toàn hệ thống*/
-    /*--font-family-heading*/ /*Font cho tiêu đề (đậm, nổi bật hơn)*/
-    /*--font-size-base*/ /*Cỡ chữ mặc định*/
-    /*--font-size-sm*/ /*Cỡ chữ nhỏ*/
-    /*--font-size-lg*/ /*Cỡ chữ lớn*/
-    /*--font-size-xl*/ /*Cỡ chữ siêu lớn (hero section, banner...)*/
-    /*--font-weight-normal*/ /*Trọng lượng bình thường*/
-    /*--font-weight-bold*/ /*Trọng lượng đậm*/
-    /*--font-weight-light*/ /*Trọng lượng nhẹ*/
-    /*--line-height-base*/ /*Khoảng cách dòng mặc định*/
-    /*--letter-spacing-base*/ /*Độ giãn chữ mặc định*/
-    /*--font-style-base*/ /*Kiểu chữ (normal, italic...)*/
+    /*--color-primary: #ed7d3d;*/ /*M�u ch�nh d?i di?n thuong hi?u*/
+    /*--color-secondary: #3f527a;*/ /*M�u ph? h? tr? cho m�u ch�nh*/
+    /*--color-accent:*/ /*M�u nh?n n?i b?t d? t?o di?m nh?n*/
+    /*--color-background: #ffffff;*/ /*M�u n?n chung cho layout ho?c card*/
+    /*--color-surface: #eaecf2;*/ /*M�u n?n c?a c�c th�nh ph?n n?i tr�n n?n*/
+    /*--color-border: #eaecf2;*/ /*M�u du?ng vi?n ho?c ph�n chia kh?i*/
+    /*--color-text: #3f527a;*/ /*M�u ch? ch�nh*/
+    /*--color-text-muted*/ /*M�u ch? ph?, �t quan tr?ng hon*/
+    /*--color-danger*/ /*M�u c?nh b�o ho?c l?i*/
+    /*--color-warning*/ /*M�u c?nh b�o nh?*/
+    /*--color-success*/ /*M�u x�c nh?n ho?c th�nh c�ng*/
+    /*--color-info*/ /*M�u d�ng d? hi?n th? th�ng tin*/
+    /*--color-disabled*/ /*M�u d�nh cho tr?ng th�i b? v� hi?u h�a*/
+    /*--color-hover*/ /*M�u hi?u ?ng khi r� chu?t*/
+    /*--color-active*/ /*M�u tr?ng th�i dang ch?n ho?c nh?n*/
+    /*--font-family-base*/ /*Font ch? m?c d?nh cho to�n h? th?ng*/
+    /*--font-family-heading*/ /*Font cho ti�u d? (d?m, n?i b?t hon)*/
+    /*--font-size-base*/ /*C? ch? m?c d?nh*/
+    /*--font-size-sm*/ /*C? ch? nh?*/
+    /*--font-size-lg*/ /*C? ch? l?n*/
+    /*--font-size-xl*/ /*C? ch? si�u l?n (hero section, banner...)*/
+    /*--font-weight-normal*/ /*Tr?ng lu?ng b�nh thu?ng*/
+    /*--font-weight-bold*/ /*Tr?ng lu?ng d?m*/
+    /*--font-weight-light*/ /*Tr?ng lu?ng nh?*/
+    /*--line-height-base*/ /*Kho?ng c�ch d�ng m?c d?nh*/
+    /*--letter-spacing-base*/ /*�? gi�n ch? m?c d?nh*/
+    /*--font-style-base*/ /*Ki?u ch? (normal, italic...)*/
     /* ========== TEXT COLORS ========== */
-    --color-text-primary: #0D0D25; /* Text chính, tiêu đề, nội dung quan trọng */
-    --color-text-secondary: #6f7ca0; /* Text phủ, mô tả, label */
-    --color-text-tertiary: #8b95b4; /* Text ít quan trọng hơn, caption */
-    --color-text-disabled: #a3acc7; /* Text bị vô hiệu hóa, placeholder */
-    --color-text-inverse: #ffffff; /* Text trên nền tối hoặc nút màu */
-    --color-text-link: #3f527a; /* Link mặc định */
-    --color-text-link-hover: #ed7d3d; /* Link khi hover (dùng màu primary để tạo điểm nhấn) */
+    --color-text-primary: #0D0D25; /* Text ch�nh, ti�u d?, n?i dung quan tr?ng */
+    --color-text-secondary: #6f7ca0; /* Text ph?, m� t?, label */
+    --color-text-tertiary: #8b95b4; /* Text �t quan tr?ng hon, caption */
+    --color-text-disabled: #a3acc7; /* Text b? v� hi?u h�a, placeholder */
+    --color-text-inverse: #ffffff; /* Text tr�n n?n t?i ho?c n�t m�u */
+    --color-text-link: #3f527a; /* Link m?c d?nh */
+    --color-text-link-hover: #ed7d3d; /* Link khi hover (d�ng m�u primary d? t?o di?m nh?n) */
     /* ========== BACKGROUND COLORS ========== */
-    --color-bg-body: #F2f3f5; /* Nền tổng thể */
-    --color-bg-main: #ffffff; /* Nền vùng nội dung */
-    --color-bg-sidebar: #eaecf2; /* Nền sidebar */
-    --color-bg-card: #d5d9e5; /* Nền card/task */
-    --color-bg-section: #eaecf2; /* Nền phân vùng sprint */
-    --color-bg-hover: #f7f8fa; /* Hover nhẹ */
-    --color-bg-active: #ed7d3d1a; /* Active với màu primary (cam nhạt) */
-    --color-bg-disabled: #bcc2da; /* Nền trạng thái disabled */
+    --color-bg-body: #F2f3f5; /* N?n t?ng th? */
+    --color-bg-main: #ffffff; /* N?n v�ng n?i dung */
+    --color-bg-sidebar: #eaecf2; /* N?n sidebar */
+    --color-bg-card: #d5d9e5; /* N?n card/task */
+    --color-bg-section: #eaecf2; /* N?n ph�n v�ng sprint */
+    --color-bg-hover: #f7f8fa; /* Hover nh? */
+    --color-bg-active: #ed7d3d1a; /* Active v?i m�u primary (cam nh?t) */
+    --color-bg-disabled: #bcc2da; /* N?n tr?ng th�i disabled */
     /* ========== BORDER COLORS ========== */
     --color-border-default: #e6ebf1;
     --color-border-hover: #d5d9e5;
@@ -303,21 +303,21 @@
 
 
 .font-primary {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: var(--color-text-primary);
 }
 
 
 .font-primary-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: var(--color-text-primary);
 }
 
 .font-primary-small {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 12px;
     color: var(--color-text-primary);
 }
@@ -326,14 +326,14 @@
 /* ========== FONT V1 ========== */
 
 .font-basic {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: var(--color-black-pure);
 }
 
 
 .font-basic-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: var(--color-black-pure);
@@ -360,7 +360,7 @@
 
 
 /*---------------------------------------------QAS Skin------------------------------------------------*/
-/*----------Hiện tại chưa tách riêng ra file khác được, cần xin ý kiến của người quản lý Shell---------*/
+/*----------Hi?n t?i chua t�ch ri�ng ra file kh�c du?c, c?n xin � ki?n c?a ngu?i qu?n l� Shell---------*/
 .ppx-0 {
     padding: 0px;
 }
@@ -691,7 +691,7 @@
 }
 
 .hfont-primary-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 16px;
     font-weight: 500;
     color: black;
@@ -713,19 +713,19 @@
 
 
 .font-secondary {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: #6D7589;
 }
 
 .font-secondary-small {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 12px;
     color: #6D7589;
 }
 
 .font-secondary-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: #6D7589;
@@ -737,13 +737,13 @@
 
 
 .font-dark {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: rgb(98, 141, 199);
 }
 
 .font-dark-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: rgb(98, 141, 199);
@@ -751,13 +751,13 @@
 
 
 .font-danger {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: rgba(229, 76, 95);
 }
 
 .font-danger-semibold {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: rgba(229, 76, 95);
@@ -775,7 +775,7 @@
 
 
 dropdown-dark.dropdown-toggle::after {
-    content: "\f282"; /* mã của icon trong bootstrap icons */
+    content: "\f282"; /* m� c?a icon trong bootstrap icons */
 }
 
 
@@ -810,7 +810,7 @@ dropdown-dark.dropdown-toggle::after {
     --dxbl-text-edit-focus-border-color: rgba(90, 129, 250, 32%);
 }
 
-    /*region dxbl-edit-btn-dropdown (các button của combobox hay dateedit) -->*/
+    /*region dxbl-edit-btn-dropdown (c�c button c?a combobox hay dateedit) -->*/
     .box-primary .dxbl-edit-btn-dropdown {
         border-left: none;
     }
@@ -926,10 +926,10 @@ dropdown-dark.dropdown-toggle::after {
         /*input[type="radio"].radio-primary:disabled:checked:before {
             content: '';
             display: block;
-            width: 9px;*/ /* Kích thước vòng tròn bên trong */
-            /*height: 9px;*/ /* Kích thước vòng tròn bên trong */
-            /*border-color: #6c757d !important;*/ /* Màu viền khi được chọn */
-            /*background-color: #6c757d;*/ /* Màu vòng tròn bên trong khi bị vô hiệu hóa */
+            width: 9px;*/ /* K�ch thu?c v�ng tr�n b�n trong */
+            /*height: 9px;*/ /* K�ch thu?c v�ng tr�n b�n trong */
+            /*border-color: #6c757d !important;*/ /* M�u vi?n khi du?c ch?n */
+            /*background-color: #6c757d;*/ /* M�u v�ng tr�n b�n trong khi b? v� hi?u h�a */
             /*border-radius: 50%;
             position: absolute;
             top: 50%;
@@ -966,20 +966,20 @@ dropdown-dark.dropdown-toggle::after {
 
 
 
-/* Thay đổi màu thanh cuộn khi hover */
+/* Thay d?i m�u thanh cu?n khi hover */
 /*table::-webkit-scrollbar-thumb:hover {
         background: #555;
     }*/
 
 /*
-Trong đoạn mã trên:
-• table::-webkit-scrollbar tùy chỉnh kích thước của thanh cuộn.
+Trong do?n m� tr�n:
+� table::-webkit-scrollbar t�y ch?nh k�ch thu?c c?a thanh cu?n.
 
-• table::-webkit-scrollbar-track tùy chỉnh track của thanh cuộn, bao gồm cả margin.
+� table::-webkit-scrollbar-track t�y ch?nh track c?a thanh cu?n, bao g?m c? margin.
 
-• table::-webkit-scrollbar-thumb tùy chỉnh thanh cuộn chính.
+� table::-webkit-scrollbar-thumb t�y ch?nh thanh cu?n ch�nh.
 
-Lưu ý rằng các bộ chọn này chỉ hoạt động trên các trình duyệt dựa trên WebKit. Đối với các trình duyệt khác như Firefox, bạn sẽ cần sử dụng các phương pháp khác hoặc các tiện ích mở rộng.
+Luu � r?ng c�c b? ch?n n�y ch? ho?t d?ng tr�n c�c tr�nh duy?t d?a tr�n WebKit. �?i v?i c�c tr�nh duy?t kh�c nhu Firefox, b?n s? c?n s? d?ng c�c phuong ph�p kh�c ho?c c�c ti?n �ch m? r?ng.
 */
 
 

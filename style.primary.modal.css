@@ -30,7 +30,7 @@
         }
 
 /*.modal-primary .modal-title {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: black;
@@ -81,7 +81,7 @@
 
 
     .modal-primary > .modal-dialog > .modal-content > .modal-header > .modal-title, .modal-info > .modal-dialog > .modal-content > .modal-header > .modal-title {
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         font-weight: 500;
         color: black;

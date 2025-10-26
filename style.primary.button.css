@@ -1,7 +1,7 @@
 /* ========== BUTTON ========== */
 .btn-primary {
     height: 32px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     /* font-style: italic;*/
     /* font-weight: 500;*/
@@ -25,7 +25,7 @@
     .btn-primary.small {
         width: 20px;
         height: 20px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         padding: 0px;
         background: var(--color-primary-500);
@@ -69,7 +69,7 @@
 
 .btn-secondary {
     height: 32px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     /*font-style: italic;*/
     /*font-weight: 500;*/
@@ -92,7 +92,7 @@
 
 .button-basic {
     height: 32px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     /*  font-style: italic;*/
     /*color: #ed7d3d;
@@ -110,7 +110,7 @@
 
 /* ========== BUTTON V1 ========== */
 .button-icon {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-style: italic;
     color: white;
@@ -126,7 +126,7 @@
 
 .button-primary {
     height: 32px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-style: italic;
     background: var(--color-primary-500);
@@ -145,7 +145,7 @@
 .button-bright.nav-link {
     height: 32px;
     padding: 0px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 500;
     color: rgb(162, 162, 162);
@@ -159,7 +159,7 @@
     .button-bright.nav-link.active {
         height: 32px;
         padding: 0px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         font-weight: 500;
         color: rgb(40, 87, 154);
@@ -173,7 +173,7 @@
 .button-bright {
     height: 32px;
     padding: 0px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: rgb(40, 87, 154);
     background-color: white;
@@ -309,7 +309,7 @@
         }
 
 .btn-basic {
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-style: italic;
     color: var(--color-text-inverse);
@@ -339,7 +339,7 @@
 
 .button-link-primary-semibold {
     padding: 0px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: var(--color-text-link);
     font-weight: 500;
@@ -348,7 +348,7 @@
 
     .button-link-primary-semibold:hover {
         padding: 0px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         color: #5A81FA;
         font-weight: 500;
@@ -361,7 +361,7 @@
 
     .button-link-primary-semibold:focus {
         padding: 0px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         color: #5A81FA;
         font-weight: 500;
@@ -374,7 +374,7 @@
 
 .button-link-secondary-semibold {
     padding: 0px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: rgb(109, 110, 112);
     font-weight: 500;
@@ -384,7 +384,7 @@
 
     .button-link-secondary-semibold:hover {
         padding: 0px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         color: rgb(109, 110, 112);
         font-weight: 500;
@@ -397,7 +397,7 @@
 
 .button-light-danger-semibold {
     padding: 0px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     color: #b82f2f;
     font-weight: 500;
@@ -407,7 +407,7 @@
 
     .button-light-danger-semibold:hover {
         padding: 0px;
-        font-family: "Inter";
+        font-family: "Segoe UI";
         font-size: 14px;
         color: #b82f2f;
         font-weight: 500;
@@ -420,7 +420,7 @@
 
 .btn-danger {
     height: 32px;
-    font-family: "Inter";
+    font-family: "Segoe UI";
     font-size: 14px;
     font-style: italic;
     padding-top: 0px;
