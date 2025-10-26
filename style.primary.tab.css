@@ -202,3 +202,67 @@
 }
 
 
+.tab-primary {
+    padding: 0px;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+    .tab-primary .nav-item {
+        background-color: #eaecf2;
+        padding: 0px;
+        margin-right: 0px;
+        border: none;
+    }
+
+        .tab-primary .nav-item:first-child {
+            border-top-left-radius: 8px;
+        }
+
+        .tab-primary .nav-item:last-child {
+            border-top-right-radius: 8px;
+        }
+
+        .tab-primary .nav-item .nav-link {
+            color: var(--color-text-primary);
+            font-family: "Segoe UI";
+            font-size: 14px;
+            font-weight: 500;
+            padding: 12px 16px;
+            margin-right: 0px;
+            margin-left: 0px;
+            background-color: #eaecf2;
+            border: none;
+            border-radius: 0px;
+            height: 100%;
+        }
+
+        .tab-primary .nav-item:first-child .nav-link {
+            border-top-left-radius: 8px;
+        }
+
+        .tab-primary .nav-item:last-child .nav-link {
+            border-top-right-radius: 8px;
+        }
+
+        .tab-primary .nav-item .nav-link:hover {
+            border: none;
+            background-color: #eaecf2;
+        }
+
+        .tab-primary .nav-item .nav-link.active {
+            color: var(--color-text-primary);
+            font-weight: 500;
+            background-color: white;
+            border: none;
+            border-bottom: 2px solid var(--color-primary-500);
+        }
+
+        .tab-primary .nav-item .h-img {
+            filter: invert(83%) sepia(35%) saturate(0%) hue-rotate(189deg) brightness(97%) contrast(95%);
+            margin: 4px;
+        }
+
+        .tab-primary .nav-item .active .h-img {
+            filter: invert(21%) sepia(54%) saturate(4200%) hue-rotate(189deg) brightness(96%) contrast(101%);
+        }
